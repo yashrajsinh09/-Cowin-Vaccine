@@ -6,7 +6,7 @@ const isValidName = function (y) {
 const isValidphone = function (phone) {
     return (/^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[6789]\d{9}$/).test(phone);
 }
-
+   
 // ==> Validation for age
 var isValidAge = function (age) {
     return (/^\S[0-9]{0,3}$/).test(age)

@@ -37,9 +37,9 @@ const createUser = async (req, res) => {
         let hash = bcrypt.hashSync(password,10)
         data.password = hash
 
-
+              
     }
-
+  
     catch (err) {
         return res.status(500).send({ status: false, message: err.message })
 
